@@ -32,5 +32,5 @@ if st.button("GEnerate Interview Question"):
        ]
    )
 
-  output = response.choices[0].message.content
-  st.write(output)
+   output = response.choices[0].message.content
+   st.write(output)
